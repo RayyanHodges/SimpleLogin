@@ -24,7 +24,7 @@ while active == True:
     menu_prompt=input("You have reached the main menu, please select from the following options: \n 'A' to login using existing credentials \n 'B' to create new credentials. \n ADMIN ONLY: Type C to list out the user database \n Please make a selection: \n ")
 
 
-    if menu_prompt == 'A,' or menu_prompt == 'a':
+    if menu_prompt == 'A' or menu_prompt == 'a':
         # Grabbing user credentials for an existing user
         Username = input("Please enter your username: \n")
         Password = input("Please enter your password: \n")
